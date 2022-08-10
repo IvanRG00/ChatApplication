@@ -80,7 +80,7 @@ public class Client {
         String name = scanner.nextLine();
         Socket socket = new Socket("localhost", 4242);
         Client client = new Client(socket, name);
-        System.out.println("Welcome to the ChatApp")
+        System.out.println("Welcome to the ChatApp");
         client.ReceivingMessage();
         client.SendingMessage();
 
